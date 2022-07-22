@@ -36,5 +36,8 @@
     <ClCompile Include="2_이창기.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="1%28다른풀이%29_이창기.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
