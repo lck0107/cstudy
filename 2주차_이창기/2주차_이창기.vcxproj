@@ -127,6 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\1주_10_이창기.c" />
+    <ClCompile Include="..\1주_11_이창기.c" />
+    <ClCompile Include="..\1주_7_이창기.c" />
+    <ClCompile Include="..\1주_8_이창기.c" />
+    <ClCompile Include="..\1주_9_이창기.c" />
     <ClCompile Include="1%28다른풀이%29_이창기.c" />
     <ClCompile Include="1_이창기.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>

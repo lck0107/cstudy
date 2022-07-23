@@ -9,7 +9,7 @@ int main(void) {
 	char arr[1001]={0};
 
 	//1. 문자열 받기
-	gets(arr);
+	fgets(arr);
 
 	//2. 아스키코드 기준으로 대문자 소문자 나눠서 조건문 만들기.
 	for (int i = 0; i < 1001; i++) {

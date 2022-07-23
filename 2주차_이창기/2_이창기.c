@@ -13,7 +13,7 @@ int main(void) {
 	char arr[100001];
 	char* p = NULL;
 	
-	gets(arr);
+	fgets(arr);
 	p = strtok(arr, " ");
 
 	while (p != 0) {
