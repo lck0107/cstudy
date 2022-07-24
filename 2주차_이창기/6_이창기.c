@@ -12,8 +12,8 @@ int main(void) {
 	char A[1001], B[1001];
 	char* p = NULL;
 
-	fgets(A);
-	fgets(B);
+	fgets(A,1001,stdin);
+	fgets(B,1001,stdin);
 	p = strstr(A, B);
 	if (p != NULL)	printf("YES");
 	else

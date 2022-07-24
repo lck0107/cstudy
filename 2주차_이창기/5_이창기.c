@@ -10,7 +10,7 @@ int main(void) {
 	char arr1[1001] = { 0 }, arr2[1001] = { 0 };
 	int  tmp[1001]={0};
 	int s=1, j=0;
-	fgets(arr1);
+	fgets(arr1,1001,stdin);
 	for (int i = 1; i <= strlen(arr1); i++) {
 		if (arr1[i] != arr1[i - 1]) {	// 전 데이터값과 같지 않을경우 -> s 값이 있냐 없냐(1개냐 2개냐)로 구분해서 작성.
 			if (s == 1) {

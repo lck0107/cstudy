@@ -8,7 +8,7 @@
 
 int main(void) {
 	char arr[1001] = { 0 };
-	fgets(arr);
+	fgets(arr,1001,stdin);
 	for (int i = strlen(arr)-1; i >= 0; i--) {
 		printf("%c", arr[i]);
 	}
